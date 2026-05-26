@@ -14,5 +14,6 @@ Built as a pnpm monorepo (SvelteKit admin + Fastify evaluator) following the
 **Integration / Operation Segregation Principle** (IOSP) — domain code stays
 pure, infrastructure is reached only through ports.
 
-See the project's [README](./shield-rule-engine/README.md) for workspace
-layout, development commands, and architecture details.
+See the project's [README](./shield-rule-engine/README.md) for the
+screenshot, workspace layout, development commands, architecture details,
+and the agent-driven SDLC story.
