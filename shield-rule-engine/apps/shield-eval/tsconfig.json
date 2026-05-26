@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "composite": true
+  },
+  "include": ["src/**/*"],
+  "references": [
+    { "path": "../../packages/domain" },
+    { "path": "../../packages/ports" },
+    { "path": "../../packages/shared" },
+    { "path": "../../packages/use-cases" },
+    { "path": "../../packages/adapters-fs" },
+    { "path": "../../packages/adapters-memory" }
+  ]
+}

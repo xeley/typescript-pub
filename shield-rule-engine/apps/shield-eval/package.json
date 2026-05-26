@@ -1,0 +1,25 @@
+{
+  "name": "@shield/shield-eval",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/main.js",
+    "dev": "tsx src/main.ts"
+  },
+  "dependencies": {
+    "@shield/adapters-fs": "workspace:*",
+    "@shield/adapters-memory": "workspace:*",
+    "@shield/domain": "workspace:*",
+    "@shield/ports": "workspace:*",
+    "@shield/shared": "workspace:*",
+    "@shield/use-cases": "workspace:*",
+    "fastify": "^5.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

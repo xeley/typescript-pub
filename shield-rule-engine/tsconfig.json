@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./packages/ports" },
+    { "path": "./packages/domain" },
+    { "path": "./packages/use-cases" },
+    { "path": "./packages/adapters-fs" },
+    { "path": "./packages/adapters-memory" },
+    { "path": "./packages/adapters-pg" },
+    { "path": "./packages/adapters-redis" },
+    { "path": "./apps/shield-eval" }
+  ]
+}
